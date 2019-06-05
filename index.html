@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="">ОЧКИ</h1>
+<h1  style="" class="summ">100</h1>
+	<!--1 quest-->
+	<div class="parent" style="position: absolute;">
+		<div  style="background-image: url(img/1.jpg); height: 200px; width: 300px; background-size: 100% 100%; position: absolute; margin-left: 100px; margin-top: 99px" class="img1"></div>
+		<div  style="background-image: url(img/2.png); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 500px;  margin-bottom: 298px" class="img2"></div>
+		<div style="background-image: url(img/3.png); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 1000px;  margin-bottom: 79px" class="img3"></div>
+		<div  style="background-image: url(img/4.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 123px;margin-top: 350px;" class="img4">
+		</div>
+		<div  style="background-image: url(img/5.png); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 400px;margin-top: 370px; " class="img5"></div>
+		<div  style="background-image: url(img/6.png); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 1134px; margin-top: 456px;" class="img6"></div>
+		<div style="background-image: url(img/7.jpg); height: 200px; width: 300px; background-size: 100% 100%; position: absolute; margin-left: 800px; margin-top: 347px;"class="img7">
+		</div>
+		<div  style="background-image: url(img/8.png); height: 200px; width: 300px; background-size: 100% 100%; position: absolute; margin-left: 1200px; margin-top: 150px;"class="img8"></div>
+		<div style="background-image: url(img/9.png); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 6000px;margin-top: 100px;"class="img9"></div>
+	
+
+		<div " style="display: none; margin-left:600px; margin-top:300px;" class="title">		
+			<h2 style="">Где спрятан логотип Umbrella corp?</h2>
+		</div>
+	</div> 
+	<!--2 quest-->
+	<div class="parent2" style="display: none">
+		<div  style="background-image: url(img/21.jpg); height: 200px; width: 300px; background-size: 100% 100%; position: absolute; margin-left: 100px; margin-top: 99px" class="img21"></div>
+		<div  style="background-image: url(img/22.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 500px;  margin-bottom: 298px" class="img22"></div>
+		<div style="background-image: url(img/23.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 1000px;  margin-bottom: 79px" class="img23"></div>
+		<div  style="background-image: url(img/24.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 123px;margin-top: 350px;" class="img24">
+		</div>
+		<div  style="background-image: url(img/25.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 400px;margin-top: 370px; " class="img25"></div>
+		<div  style="background-image: url(img/26.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 1134px; margin-top: 456px;" class="img26"></div>
+		<div style="background-image: url(img/27.jpg); height: 200px; width: 300px; background-size: 100% 100%; position: absolute; margin-left: 800px; margin-top: 347px;"class="img27">
+		</div>
+		<div  style="background-image: url(img/28.jpg); height: 200px; width: 300px; background-size: 100% 100%; position: absolute; margin-left: 1200px; margin-top: 150px;"class="img28"></div>
+		<div style="background-image: url(img/29.jpg); height: 200px; width: 300px; background-size: 100% 100%;position: absolute; margin-left: 6000px;margin-top: 100px;"class="img29"></div>
+		<div " style="display: none; margin-left:600px; margin-top:300px; position: absolute;" class="title2">		
+			<h2 style="">Где спрятаны мои ключи?</h2>
+		</div>
+	</div>
+<script>
+	//1
+	let score = 100	
+	let x = function () {
+		document.querySelector('.title').style.display = 'block'
+		document.querySelector('.img1').style.background = 'black'
+		document.querySelector('.img2').style.background = 'black'
+		document.querySelector('.img3').style.background = 'black'
+		document.querySelector('.img4').style.background = 'black'
+		document.querySelector('.img5').style.background = 'black'
+		document.querySelector('.img6').style.background = 'black'
+		document.querySelector('.img7').style.background = 'black'
+		document.querySelector('.img8').style.background = 'black'
+		document.querySelector('.img9').style.background = 'black'
+	}
+	setTimeout(x,2000)
+	let xy = function () {
+		document.querySelector('.title2').style.display = 'block'
+		document.querySelector('.img21').style.background = 'black'
+		document.querySelector('.img22').style.background = 'black'
+		document.querySelector('.img23').style.background = 'black'
+		document.querySelector('.img24').style.background = 'black'
+		document.querySelector('.img25').style.background = 'black'
+		document.querySelector('.img26').style.background = 'black'
+		document.querySelector('.img27').style.background = 'black'
+		document.querySelector('.img28').style.background = 'black'
+		document.querySelector('.img29').style.background = 'black'
+	}
+	document.querySelector('.img1').onclick = function(){
+		score = score + 100
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img1').style.backgroundImage = 'url(img/1.jpg)' 
+		document.querySelector('.img1').style.backgroundSize = '100% 100%'
+		document.querySelector('.parent').style.display = 'none'
+		document.querySelector('.parent2').style.display = 'block'
+		
+		setTimeout(xy,3500)
+	}
+	
+	document.querySelector('.img2').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img2').style.backgroundImage = 'url(img/2.png)' 
+		document.querySelector('.img2').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img3').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img3').style.backgroundImage = 'url(img/3.png)' 
+		document.querySelector('.img3').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img4').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img4').style.backgroundImage = 'url(img/4.jpg)' 
+		document.querySelector('.img4').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img5').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img5').style.backgroundImage = 'url(img/5.png)' 
+		document.querySelector('.img5').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img6').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img6').style.backgroundImage = 'url(img/6.png)' 
+		document.querySelector('.img6').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img7').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img7').style.backgroundImage = 'url(img/7.jpg)' 
+		document.querySelector('.img7').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img8').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img8').style.backgroundImage = 'url(img/8.png)' 
+		document.querySelector('.img8').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img9').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img9').style.backgroundImage = 'url(img/9.png)' 
+		document.querySelector('.img9').style.backgroundSize = '100% 100%'
+	}
+	//2
+	
+	
+	document.querySelector('.img21').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img21').style.backgroundImage = 'url(img/21.jpg)' 
+		document.querySelector('.img21').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img22').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img22').style.backgroundImage = 'url(img/22.jpg)' 
+		document.querySelector('.img22').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img23').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img23').style.backgroundImage = 'url(img/23.jpg)' 
+		document.querySelector('.img23').style.backgroundSize = '100% 100%'
+	}
+	
+	document.querySelector('.img24').onclick = function(){
+		alert('Congratulations!')
+		score = score + 100
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img24').style.backgroundImage = 'url(img/24.jpg)' 
+		document.querySelector('.img24').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img25').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img25').style.backgroundImage = 'url(img/25.jpg)' 
+		document.querySelector('.img25').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img26').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img26').style.backgroundImage = 'url(img/26.jpg)' 
+		document.querySelector('.img26').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img27').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img27').style.backgroundImage = 'url(img/27.jpg)' 
+		document.querySelector('.img27').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img28').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img28').style.backgroundImage = 'url(img/28.jpg)' 
+		document.querySelector('.img28').style.backgroundSize = '100% 100%'
+	}
+	document.querySelector('.img29').onclick = function(){
+		score = score - 10
+		document.querySelector('.summ').innerHTML = score
+		document.querySelector('.img29').style.backgroundImage = 'url(img/29.jpg)' 
+		document.querySelector('.img29').style.backgroundSize = '100% 100%'
+	}
+</script>	
+</body>
+</html>
